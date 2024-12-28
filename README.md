@@ -1,2 +1,2 @@
-# Gitea Deploy
-Deployed on: mitou (compose-cd)
+# WireGuard Portal (v2) Deploy
+Deployed on: arch (compose-cd)
