@@ -22,9 +22,12 @@ services:
 
       - type: bind
         source: ./config.yml
-        target: /app/config/config.yml
+        target: /etc/config.yml
         read_only: true
 
+    environment:
+      WG_PORTAL_CONFIG: /etc/config.yml
+     
     deploy:
       resources:
         limits:
