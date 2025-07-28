@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   wgportal:
-    image: wgportal/wg-portal:master@sha256:518ee45b1165cb721b9d06ce869b3a532ad4778b142f640bc18752c4a0474fc2
+    image: wgportal/wg-portal:master@sha256:199698eb334712f6f63a804a42609ecb0354a0feab7c751cb5df042349dc0636
     hostname: wgportal
     container_name: wgportal__wgportal
     restart: unless-stopped
